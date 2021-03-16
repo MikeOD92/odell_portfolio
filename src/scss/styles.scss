@@ -1,9 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700");
 @import "reset";
 @import "grid";
-
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200;400&family=Roboto:wght@300&display=swap');
+// font-family: 'MuseoModerno', cursive;
+// font-family: 'Roboto', sans-serif;
 body {
   font-size: 16px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .NavBar {
@@ -14,7 +17,49 @@ body {
 }
 
 .HomePage {
-
+  overflow: hidden;
+  header{
+    h1{
+      position: relative;
+      top: 10vh;
+      left: 7vw;
+      text-decoration: underline wavy 3px rgb(7, 218, 147);
+      font-family: 'MuseoModerno', cursive;
+      font-weight: 400;
+    }
+  }
+  #splash-container{
+    height: 100vh;
+    text-align: center;
+  }
+  #red-texture{
+    position: relative;
+    left: 25vw;
+    height: 47vh;
+    width: 25vw;
+    background-color:rgb(250, 44, 17);
+    background-image: url(https://i.imgur.com/e4gnAhT.jpg);
+    background-size: cover;
+    background-position: right;
+    background-blend-mode: screen;
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 46%, 50% 0);
+  }
+  #blue-box{
+    position: relative;
+    left: 32vw;
+    bottom: 33vh;
+    height: 47vh;
+    width: 25vw;
+    background-color:rgb(7, 218, 147);
+    opacity: 0.6;
+    margin-bottom: 0;
+  }
+  h3{
+    position: relative;
+    bottom: 25vh;
+    // font-family: 'MuseoModerno', cursive;
+    // font-weight: 200;
+  }
 }
 
 .AboutPage {
