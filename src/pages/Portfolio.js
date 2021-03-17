@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 export default function App(props) {
 	return (
-		<div className="Portfolio">
+		<div className="portfolio">
 			<h1>My Websites and Apps</h1>
 
 			<div id="ga-final-proj">
@@ -45,11 +45,15 @@ export default function App(props) {
 					users can also make time-stamped notes when making a recipe to record
 					variations and outcomes{' '}
 				</p>
+				<a href="https://infinite-temple-91457.herokuapp.com/">
+					{' '}
+					Fermenter App
+				</a>
 				<img src="" />
 			</div>
 
 			<div id="Grocery-app">
-				<h4> Grocery list </h4>
+				<h4> Groceries </h4>
 				<h5> very basic react app made for making a grocery shopping list</h5>
 				<p>
 					{' '}

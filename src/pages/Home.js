@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 export default function App(props) {
 	return (
 		<div className="HomePage">
-			<header class="header-bar">
+			<header className="header-bar">
 				<h1> Michael T. O'Dell</h1>
 			</header>
 			<div id="splash-container">
