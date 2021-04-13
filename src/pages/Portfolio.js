@@ -20,17 +20,6 @@ export default function App(props) {
 				<img src="" />
 			</div>
 
-			<div id="tweeter">
-				<h4> Tweeet-r</h4>
-				<h5> a very basic twitter clone</h5>
-				<p>
-					{' '}
-					This app was made in a group setting where I mostly worked on the CSS
-					and styling
-				</p>
-				<img src="" />
-			</div>
-
 			<div id="fermenter">
 				<h4> Fermenter </h4>
 				<h5> An app for homebrewers and at home microbial kitchens</h5>
@@ -52,17 +41,6 @@ export default function App(props) {
 				<img src="" />
 			</div>
 
-			<div id="Grocery-app">
-				<h4> Groceries </h4>
-				<h5> very basic react app made for making a grocery shopping list</h5>
-				<p>
-					{' '}
-					This app is built with a react front end and an express/mongoDB
-					backend{' '}
-				</p>
-				<img src="" />
-			</div>
-
 			<div id="Computer Cacti">
 				<h4> Computer Cacti </h4>
 				<h5> a mock e-commerce site for 3-d models of cacti and planters</h5>
@@ -71,7 +49,7 @@ export default function App(props) {
 				<img src="" />
 			</div>
 
-			<div id="The Wizards Maze">
+			{/* <div id="The Wizards Maze">
 				<h4> The Wizards Maze</h4>
 				<h5> a very simple JS game</h5>
 				<p>
@@ -80,7 +58,7 @@ export default function App(props) {
 					to exit the maze{' '}
 				</p>
 				<img src="" />
-			</div>
+			</div> */}
 		</div>
 	);
 }

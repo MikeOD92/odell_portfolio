@@ -11,11 +11,11 @@ const routes = [
 		key: 'Contact',
 		path: '/contact'
 	},
-	{
-		Component: About,
-		key: 'About',
-		path: '/about'
-	},
+	// {
+	// 	Component: About,
+	// 	key: 'About',
+	// 	path: '/about'
+	// },
 	{
 		Component: Portfolio,
 		key: 'Portfolio',
