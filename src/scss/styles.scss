@@ -117,17 +117,17 @@ body {
   .email{
     grid-column: 2/3;
     grid-row: 2/3;
-    transform: rotate(12deg);
+    // transform: rotate(12deg);
   }
   .github{
     grid-column: 3/4;
     grid-row: 3/4;
-    transform: rotate(-15deg);
+    // transform: rotate(-15deg);
   }
   .linkedin{
     grid-column: 4/5;
     grid-row: 2/3;
-    transform: rotate(-6deg);
+    // transform: rotate(-6deg);
   }
 }
 
@@ -214,21 +214,21 @@ body {
       position: relative;
       top: 5vh;
       left:-13vw;
-      transform: rotate(-8deg);
+      // transform: rotate(-8deg);
       height: 15vh;
     }
     .github{
       position: relative;
       left: 14vw;
       top: 5vh;
-      transform: rotate(4deg);
+      // transform: rotate(4deg);
       height: 15vh;
     }
     .linkedin{
       position: relative;
       left: 5vw;
       top: 5vh;
-      transform: rotate(-7deg);
+      // transform: rotate(-7deg);
       height: 15vh;
     }
   }
