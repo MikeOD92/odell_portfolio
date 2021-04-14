@@ -7,49 +7,48 @@
 body {
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
+  // background-color: rgb(249, 242, 232);
   h1{
     font-family: 'MuseoModerno', cursive;
     font-weight: 400;
+    text-decoration: underline wavy 3px rgb(7, 218, 147);
   }
 }
-
+#app{
+  background-color: rgb(249, 242, 232);
+}
 .NavBar {
   height: 7vh;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-around;
+  align-items:center;
   width: 100%;
   background-color: black;
   a{
-    color: white;
-    // color:rgb(7, 218, 147);
+    color: rgb(249, 242, 232);
   }
   a:hover{
-    //color:yellow;
-    // color:rgb(250, 44, 17);
     color:rgb(7, 218, 147);
-    // color: white;
-    text-decoration: underline wavy white;
+    text-decoration: underline wavy rgb(249, 242, 232);
   }
 }
 
 .HomePage {
-
   overflow: hidden;
-  background: whitesmoke;
-  height:100vh;
-  overflow-y: hidden;
+  background-color: rgb(249, 242, 232);
+  height: 100vh;
+
   header{
     h1{
       position: relative;
       top: 10vh;
       left: 7vw;
-      text-decoration: underline wavy 3px rgb(7, 218, 147);
+      
     }
   }
   #splash-container{
-    height: 100vh;
     text-align: center;
   }
   #red-texture{
@@ -57,7 +56,7 @@ body {
     left: 30vw;
     height: 300px;
     width: 250px;
-    background-color:rgb(250, 44, 17);
+    background-color:rgb(215, 41, 18);
     background-image: url(https://i.imgur.com/e4gnAhT.jpg);
     background-size: cover;
     background-position: right;
@@ -74,23 +73,13 @@ body {
     opacity: 0.6;
     margin-bottom: 0;
     border-radius:50%;
-
   }
   h3{
     position: relative;
-    bottom: 25vh;
-    left: 15vw;
-    // font-family: 'MuseoModerno', cursive;
-    // font-weight: 200;
+    bottom: 22vh;
+    left: 27vw;
   }
 }
-
-// .AboutPage {
-//   text-align: center;
-//   h3{
-//     font-family: 'MuseoModerno', cursive;
-//   }
-// }
 
 .ContactPage{
   text-align: center;
@@ -99,6 +88,8 @@ body {
   grid-template-columns: 20vw 20vw 20vw 20vw;
   grid-template-rows: auto;
   font-size: 1.4rem;
+  background-color: rgb(249, 242, 232);
+  height: 100vh;
   div{
     height: 28vh;
     width: 20vw;
@@ -111,14 +102,13 @@ body {
     text-decoration: underline wavy rgb(7, 218, 147);
     font-size: 1.7rem;
     font-family: 'MuseoModerno', cursive;
+    letter-spacing: 0.2rem;
   }
   h3{
     font-family: 'MuseoModerno', cursive;
     margin: 3%;
     text-decoration: underline wavy 3px rgb(7, 218, 147);
     width: 25vw;
-    letter-spacing: 0.2rem;
-    font-size: 2rem;
   }
   .pagetitle{
     grid-column: 1/2;
@@ -147,12 +137,99 @@ body {
   grid-template-rows: auto;
   grid-gap: 1rem;
   padding: 20px;
+  background-color: rgb(249, 242, 232);
   h1{
     grid-column: 1/4;
-    height: 20vh;
-    text-decoration: underline 3px rgb(7, 218, 147);
+  
+  }
+  img{
+    width:27vw;
+    margin: 10px;
   }
   h4{
     font-family: 'MuseoModerno', cursive;
+  }
+  div{
+    border-bottom: 1px solid black;
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 666px)  {
+  body{
+    width:100%;
+    // height: 110vh;
+  }
+  .NavBar{
+    font-size: 1.2rem;
+  }
+  .HomePage{
+    #red-texture{
+      top: 15vh;
+      left: 5vw;
+    }
+    #blue-box{
+      bottom: 16vh;
+      left: 16vw;
+    }
+    h3{
+      left: 0;
+      bottom: 7vh;
+    }
+  }
+  .portfolio{
+    display: flex;
+    flex-direction: column;
+    img{
+      width: 90vw;
+      position: relative;
+      margin: 0 auto;
+      margin-bottom: 10px;
+    }
+    div{
+      padding: 0px;
+    }
+  }
+  .ContactPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    position: relative;
+    left: -15vw;
+    height: 100vh;
+    a{
+      font-size: 1.2rem;
+    }
+    a:hover{
+      font-size: 1.3rem;
+    }
+    .pagetitle{
+      height: 15vh;
+      position: relative;
+      top: 5vh;
+      left: 5vw;
+    }
+    .email{
+      position: relative;
+      top: 5vh;
+      left:-13vw;
+      transform: rotate(-8deg);
+      height: 15vh;
+    }
+    .github{
+      position: relative;
+      left: 14vw;
+      top: 5vh;
+      transform: rotate(4deg);
+      height: 15vh;
+    }
+    .linkedin{
+      position: relative;
+      left: 5vw;
+      top: 5vh;
+      transform: rotate(-7deg);
+      height: 15vh;
+    }
   }
 }

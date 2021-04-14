@@ -4,10 +4,10 @@ export default function Contact(props) {
 	return (
 		<div className="ContactPage">
 			<div className="pagetitle">
-				<h3>Contact</h3>
+				<h1>Contact</h1>
 			</div>
 			<div className="email">
-				<a href="https://michaelodell660@gmail.com">
+				<a href="mailto:michaelodell660@gmail.com">
 					{' '}
 					michaelodell660@gmail.com
 				</a>
@@ -16,7 +16,7 @@ export default function Contact(props) {
 				<a href="https://github.com/MikeOD92"> Github</a>
 			</div>
 			<div className="linkedin">
-				<a href="https://www.linkedin.com/in/michaelodell92/">Linkedin</a>
+				<a href="https://www.linkedin.com/in/michaelodell92/">Linked-in</a>
 			</div>
 		</div>
 	);
