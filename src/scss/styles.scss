@@ -15,6 +15,9 @@ body {
   }
 }
 #app{
+  background-image: url(https://images.pexels.com/photos/1774986/pexels-photo-1774986.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+  background-size: contain;
+  background-blend-mode: color-burn;
   background-color: rgb(249, 242, 232);
 }
 .NavBar {
@@ -36,7 +39,10 @@ body {
 }
 
 .HomePage {
-  overflow: hidden;
+  // overflow: hidden;
+  background-image: url(https://images.pexels.com/photos/1774986/pexels-photo-1774986.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+  background-size: contain;
+  background-blend-mode: overlay;
   background-color: rgb(249, 242, 232);
   height: 100vh;
 
