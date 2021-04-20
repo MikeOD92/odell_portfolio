@@ -11,14 +11,21 @@ body {
   h1{
     font-family: 'MuseoModerno', cursive;
     font-weight: 400;
-    text-decoration: underline wavy 3px rgb(7, 218, 147);
   }
+
+
 }
 #app{
   background-image: url(https://images.pexels.com/photos/1774986/pexels-photo-1774986.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
   background-size: contain;
   background-blend-mode: color-burn;
   background-color: rgb(249, 242, 232);
+}
+.dots{
+  text-decoration: underline dotted 3px rgb(7, 218, 147);
+}
+.waves{
+  text-decoration: underline wavy 3px rgb(7, 218, 147);
 }
 .NavBar {
   height: 7vh;
@@ -45,12 +52,15 @@ body {
   background-blend-mode: overlay;
   background-color: rgb(249, 242, 232);
   height: 100vh;
-
+  // span .dots{
+  //   text-decoration: none;
+  // }
   header{
     h1{
       position: relative;
       top: 10vh;
       left: 7vw;
+    
       
     }
   }
