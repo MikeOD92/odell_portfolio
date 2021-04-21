@@ -9,17 +9,17 @@ const routes = [
 	{
 		Component: Contact,
 		key: 'Contact',
-		path: '/contact'
+		path: '#contact'
 	},
 	{
 		Component: About,
 		key: 'About',
-		path: '/about'
+		path: '#about'
 	},
 	{
 		Component: Portfolio,
 		key: 'Portfolio',
-		path: '/portfolio'
+		path: '#portfolio'
 	},
 	{
 		Component: Home,

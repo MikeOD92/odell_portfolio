@@ -5,9 +5,9 @@ import { IconContext } from 'react-icons';
 
 export default function Contact(props) {
 	return (
-		<div className="ContactPage">
+		<div className="ContactPage" id="contact">
 			<div className="pagetitle">
-				<h1>Contact</h1>
+				<h1 className="waves">Contact</h1>
 			</div>
 			<div className="email">
 				<a href="mailto:michaelodell660@gmail.com">

@@ -25,12 +25,8 @@ import {
 
 export default function About(props) {
 	return (
-		<div className="AboutPage">
-			<h1>
-				{' '}
-				<span className="waves">About </span>
-				<span className="dots">me</span>{' '}
-			</h1>
+		<div className="AboutPage" id="about">
+			<h1 className="waves">About me</h1>
 			<div className="info-container">
 				<div className="prof-container">
 					<img id="photo" src="https://i.imgur.com/lGDDgKK.jpg" />
@@ -47,30 +43,45 @@ export default function About(props) {
 				<IconContext.Provider
 					value={{ color: 'rgba(0,0,0,0.6)', className: 'react-icons' }}
 				>
-					<div className="skills container">
+					<div className="skills-container">
 						<h5> Front-end </h5>
+
 						<DiHtml5 />
 
 						<DiCss3 />
+
 						<DiSass />
+
 						<DiGulp />
 
 						<DiJsBadge />
+
 						<DiJqueryLogo />
+
 						<DiReact />
+
 						<h5> Back-end </h5>
+
 						<DiNodejsSmall />
+
 						<DiRuby />
+
 						<DiDatabase />
+
 						<DiPostgresql />
+
 						<DiMongodb />
+
 						<SiPostman />
 
 						<h5> Software </h5>
 
 						<SiAdobeillustrator />
+
 						<SiAdobephotoshop />
+
 						<SiAdobepremiere />
+
 						<SiBlender />
 					</div>
 				</IconContext.Provider>

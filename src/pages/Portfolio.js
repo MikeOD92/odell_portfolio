@@ -2,13 +2,8 @@ import React, { useState } from 'react';
 
 export default function App(props) {
 	return (
-		<div className="portfolio">
-			<h1>
-				<span className="dots">My </span>
-				<span className="waves"> Websites an</span>
-				<span className="dots">d</span>
-				<span className="waves"> Apps </span>
-			</h1>
+		<div className="portfolio" id="portfolio">
+			<h1 className="waves">My Websites and Apps</h1>
 
 			<div id="ga-final-proj">
 				<h4> My-Pack </h4>

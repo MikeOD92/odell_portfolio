@@ -5,13 +5,9 @@ import About from './About';
 
 export default function App(props) {
 	return (
-		<div className="HomePage">
+		<div className="HomePage" id="home">
 			<header className="header-bar">
-				<h1>
-					{' '}
-					<span className="dots">Michael T. </span>
-					<span className="waves">O'Dell</span>
-				</h1>
+				<h1 className="waves">Michael T. O'Dell</h1>
 			</header>
 			<div id="splash-container">
 				<div id="red-texture"></div>

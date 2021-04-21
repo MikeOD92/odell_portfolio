@@ -6,6 +6,7 @@
 // font-family: 'Roboto', sans-serif;
 :root {
   height: inherit;
+  overflow-x: hidden;
 }
 body {
   font-size: 16px;
@@ -14,16 +15,16 @@ body {
   h1{
     font-family: 'MuseoModerno', cursive;
     font-weight: 400;
+    letter-spacing: 0.7rem;;
   }
-
 
 }
 #app{
   height: inherit;
+  width: 100vw;
 }
-.dots{
-  text-decoration: underline dotted 3px rgb(7, 218, 147);
-}
+
+
 .waves{
   text-decoration: underline wavy 3px rgb(7, 218, 147);
 }
@@ -35,7 +36,7 @@ body {
   height: 7vh;
   font-size: 1.5rem;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   justify-content: space-around;
   align-items:center;
   width: 100%;
@@ -51,12 +52,11 @@ body {
 }
 
 .HomePage {
-
-  // background-image: url(https://images.pexels.com/photos/1774986/pexels-photo-1774986.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
-  // background-size: contain;
-  // background-blend-mode: overlay;
-  // background-color: rgb(249, 242, 232);
-  background-color: white;
+  background-image: url(https://images.pexels.com/photos/1774986/pexels-photo-1774986.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+  background-size: contain;
+  background-blend-mode: overlay;
+  background-color: rgb(245, 240, 232);
+  // background-color: white;
   height: 150vh;
 
   header{
@@ -64,7 +64,7 @@ body {
       position: relative;
       top: 10vh;
       left: 7vw;
-    
+      z-index: 100;
       
     }
   }
@@ -74,6 +74,7 @@ body {
   #red-texture{
     position: relative;
     left: 30vw;
+    top:10vh;
     height: 300px;
     width: 250px;
     background-color:rgb(215, 41, 18);
@@ -86,7 +87,7 @@ body {
   #blue-box{
     position: relative;
     left: 34vw;
-    bottom: 30vh;
+    bottom: 20vh;
     height: 300px;
     width: 300px;
     background-color:rgb(7, 218, 147);
@@ -96,8 +97,8 @@ body {
   }
   h3{
     position: relative;
-    bottom: 22vh;
-    left: 27vw;
+    bottom: 15vh;
+    left: 20vw;
   }
 }
 
@@ -108,12 +109,10 @@ body {
   grid-template-columns: 20vw 20vw 20vw 20vw;
   grid-template-rows: auto;
   font-size: 1.4rem;
-  // background-color: rgb(249, 242, 232);
   background: linear-gradient(rgb(249, 242, 232), white);
   height: 100vh;
   div{
     height: 28vh;
-    width: 20vw;
   }
   a{
     color: black;
@@ -121,9 +120,7 @@ body {
   a:hover{
     color:black;
     text-decoration: underline wavy rgb(7, 218, 147);
-    font-size: 1.7rem;
     font-family: 'MuseoModerno', cursive;
-    letter-spacing: 0.2rem;
   }
   h3{
     font-family: 'MuseoModerno', cursive;
@@ -162,7 +159,6 @@ body {
   h1{
     grid-column: 1/4;
     text-align: right;
-  
   }
   img{
     width:27vw;
@@ -170,9 +166,9 @@ body {
   }
   h4{
     font-family: 'MuseoModerno', cursive;
+    font-size: 1.8rem;;
   }
   div{
-    border-bottom: 1px solid black;
     padding: 10px;
   }
 }
@@ -189,6 +185,10 @@ body {
     position: relative;
     top: 10vh;
   }
+  h5{
+    margin: 3vh 0 3vh 0;
+  }
+
   #photo{
     width: 150px;
     height:150px;
@@ -198,14 +198,18 @@ body {
 }
 
 @media only screen and (max-width: 666px)  {
-  body{
-    width:100%;
-    // height: 110vh;
+  :root{
+    margin: 0 auto;
+    width:100vw;
   }
   .NavBar{
     font-size: 1.2rem;
   }
   .HomePage{
+    h1{
+    margin: 0 auto;
+
+    }
     #red-texture{
       top: 15vh;
       left: 5vw;
@@ -215,13 +219,23 @@ body {
       left: 16vw;
     }
     h3{
-      left: 0;
+      text-align: center;
+      font-size: 1.4rem;
+
       bottom: 7vh;
+      width:60%;
     }
   }
   .portfolio{
     display: flex;
     flex-direction: column;
+    width: 100%;
+    h1{
+      margin-top: 15vh;
+    }
+    h4{
+      font-size: 1.8rem;
+    }
     img{
       width: 90vw;
       position: relative;
@@ -229,7 +243,23 @@ body {
       margin-bottom: 10px;
     }
     div{
+      border-bottom: 1px solid black;
       padding: 0px;
+      margin-bottom: 5vh;
+    }
+  }
+  .AboutPage{
+    height:165vh;
+    h1{
+      position: relative;
+      top:17vh;
+    }
+    .react-icons{
+      width: 15vw;
+      margin: 10px;
+    }
+    .info-container{
+      top:15vh;
     }
   }
   .ContactPage{
@@ -240,8 +270,12 @@ body {
     position: relative;
     left: -15vw;
     height: 100vh;
+    width: 115vw;
+    div{
+      height:25vh;
+    }
     a{
-      font-size: 1.2rem;
+      font-size: 1.1rem;
     }
     a:hover{
       font-size: 1.3rem;
@@ -249,29 +283,29 @@ body {
     .pagetitle{
       height: 15vh;
       position: relative;
-      top: 5vh;
+      top: 0vh;
       left: 5vw;
     }
     .email{
       position: relative;
       top: 5vh;
-      left:-13vw;
+      // left:-13vw;
       // transform: rotate(-8deg);
-      height: 15vh;
+
     }
     .github{
       position: relative;
-      left: 14vw;
+      // left: 14vw;
       top: 5vh;
       // transform: rotate(4deg);
-      height: 15vh;
+ 
     }
     .linkedin{
       position: relative;
       left: 5vw;
       top: 5vh;
       // transform: rotate(-7deg);
-      height: 15vh;
+  
     }
   }
 }
