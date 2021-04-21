@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import { DiGithubBadge } from 'react-icons/di';
+import { SiLinkedin } from 'react-icons/si';
+import { IconContext } from 'react-icons';
 
 export default function Contact(props) {
 	return (
@@ -12,12 +15,21 @@ export default function Contact(props) {
 					michaelodell660@gmail.com
 				</a>
 			</div>
-			<div className="github">
-				<a href="https://github.com/MikeOD92"> Github</a>
-			</div>
-			<div className="linkedin">
-				<a href="https://www.linkedin.com/in/michaelodell92/">Linked-in</a>
-			</div>
+			<IconContext.Provider
+				value={{ color: 'rgba(0,0,0,0.6)', className: 'react-icons' }}
+			>
+				<div className="github">
+					<a href="https://github.com/MikeOD92">
+						{' '}
+						<DiGithubBadge />
+					</a>
+				</div>
+				<div className="linkedin">
+					<a href="https://www.linkedin.com/in/michaelodell92/">
+						<SiLinkedin />
+					</a>
+				</div>
+			</IconContext.Provider>
 		</div>
 	);
 }

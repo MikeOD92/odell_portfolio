@@ -18,8 +18,10 @@ export default function App(props) {
 				<div id="blue-box"></div>
 				<h3> Web Developer / Software Engineer / Artist</h3>
 			</div>
-			<Portfolio />
 			<About />
+
+			<Portfolio />
+
 			<Contact />
 		</div>
 	);

@@ -1,4 +1,13 @@
 import React from 'react';
+import { IconContext } from 'react-icons';
+import {
+	SiAdobeillustrator,
+	SiAdobephotoshop,
+	SiAdobepremiere,
+	SiBlender,
+	SiPostman
+} from 'react-icons/si';
+
 import {
 	DiHtml5,
 	DiCss3,
@@ -11,39 +20,60 @@ import {
 	DiNodejsSmall,
 	DiRuby,
 	DiPostgresql,
-	DiMongodb,
-
-
-
+	DiMongodb
 } from 'react-icons/di';
 
 export default function About(props) {
 	return (
 		<div className="AboutPage">
-			<h3> About me</h3>
-			<div className="prof-container">
-				<img id="photo" src="..." />
-			</div>
+			<h1>
+				{' '}
+				<span className="waves">About </span>
+				<span className="dots">me</span>{' '}
+			</h1>
 			<div className="info-container">
-				<p>
-					{' '}
-					I’m a software engineer and creative with a passion for the outdoors
-					and a strong sense of environmental responsibility. I use React, Ruby
-					and JS to build visually pleasing, user friendly applications and
-					websites to help other makers share their creations with the world.
-				</p>
-			</div>
-			<div className="skills container">
-				<h5> Front-end </h5>
-				<DiHtml5 />
-				<DiCss3 />
-				<DiSass />
-				<DiJsBadge />
-				<DiReact />
-				<DiGulp />
-				<DiNodejsSmall />
-				<DiDatabase />
-				<DiRuby />
+				<div className="prof-container">
+					<img id="photo" src="https://i.imgur.com/lGDDgKK.jpg" />
+				</div>
+				<div className="skills">
+					<p>
+						{' '}
+						I’m a software engineer and creative with a passion for the
+						outdoors. I use React, JS, and Ruby to build visually pleasing, user
+						friendly applications and websites to help other makers share their
+						creations with the world.
+					</p>
+				</div>
+				<IconContext.Provider
+					value={{ color: 'rgba(0,0,0,0.6)', className: 'react-icons' }}
+				>
+					<div className="skills container">
+						<h5> Front-end </h5>
+						<DiHtml5 />
+
+						<DiCss3 />
+						<DiSass />
+						<DiGulp />
+
+						<DiJsBadge />
+						<DiJqueryLogo />
+						<DiReact />
+						<h5> Back-end </h5>
+						<DiNodejsSmall />
+						<DiRuby />
+						<DiDatabase />
+						<DiPostgresql />
+						<DiMongodb />
+						<SiPostman />
+
+						<h5> Software </h5>
+
+						<SiAdobeillustrator />
+						<SiAdobephotoshop />
+						<SiAdobepremiere />
+						<SiBlender />
+					</div>
+				</IconContext.Provider>
 			</div>
 		</div>
 	);
