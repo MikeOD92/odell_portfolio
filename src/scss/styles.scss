@@ -197,7 +197,6 @@ body {
 .resumelink{
   position: relative;
   top: 20vh;
-  // left: 5vh;
   font-size: 1.5rem;
   color: black;
 }
@@ -214,8 +213,10 @@ body {
   }
   .NavBar{
     font-size: 1.2rem;
+    height: 7vh;
   }
   .HomePage{
+    background: white;
     h1{
     margin: 0 auto;
     }
@@ -241,6 +242,7 @@ body {
     width: 100%;
     h1{
       margin-top: 15vh;
+      margin-bottom: 5vh;
     }
     h4{
       font-size: 1.8rem;
@@ -258,7 +260,7 @@ body {
     }
   }
   .AboutPage{
-    height:170vh;
+    height:190vh;
     h1{
       position: relative;
       top:17vh;
@@ -293,6 +295,10 @@ body {
     }
     a:hover{
       font-size: 1.3rem;
+    }
+    .react-icons{
+      width: 20vw;
+      height: 20vh;
     }
     .pagetitle{
       height: 15vh;
