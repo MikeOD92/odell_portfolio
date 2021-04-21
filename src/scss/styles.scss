@@ -107,7 +107,8 @@ body {
   grid-template-columns: 20vw 20vw 20vw 20vw;
   grid-template-rows: auto;
   font-size: 1.4rem;
-  background-color: rgb(249, 242, 232);
+  // background-color: rgb(249, 242, 232);
+  background: linear-gradient(rgb(249, 242, 232), white);
   height: 100vh;
   div{
     height: 28vh;
