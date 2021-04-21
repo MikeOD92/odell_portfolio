@@ -41,7 +41,7 @@ body {
   align-items:center;
   width: 100%;
   background-color: black;
-  position: sticky;
+
   a{
     color: rgb(249, 242, 232);
   }
@@ -62,10 +62,9 @@ body {
   header{
     h1{
       position: relative;
-      top: 10vh;
+      top: 7vh;
       left: 7vw;
       z-index: 100;
-      
     }
   }
   #splash-container{
@@ -195,6 +194,17 @@ body {
     border-radius: 50%;
     margin: 5vh;
 }
+.resumelink{
+  position: relative;
+  top: 20vh;
+  // left: 5vh;
+  font-size: 1.5rem;
+  color: black;
+}
+.resumelink:hover{
+  text-decoration: underline wavy rgb(7, 218, 147);
+  font-family: 'MuseoModerno', cursive;
+}
 }
 
 @media only screen and (max-width: 666px)  {
@@ -208,7 +218,6 @@ body {
   .HomePage{
     h1{
     margin: 0 auto;
-
     }
     #red-texture{
       top: 15vh;
@@ -249,7 +258,7 @@ body {
     }
   }
   .AboutPage{
-    height:165vh;
+    height:170vh;
     h1{
       position: relative;
       top:17vh;
@@ -260,6 +269,11 @@ body {
     }
     .info-container{
       top:15vh;
+    }
+    .resumelink{
+      left: 0;
+      text-decoration: underline wavy rgb(7, 218, 147);
+      font-family: 'MuseoModerno', cursive;
     }
   }
   .ContactPage{

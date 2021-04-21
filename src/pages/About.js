@@ -86,6 +86,12 @@ export default function About(props) {
 					</div>
 				</IconContext.Provider>
 			</div>
+			<a
+				className="resumelink"
+				href="https://docs.google.com/document/d/1FjxY7Q63uHAY_-X2ZyAQuV_YcuQO51HO_vqVTS5NW80/edit?usp=sharing"
+			>
+				Resume{' '}
+			</a>
 		</div>
 	);
 }
