@@ -52,10 +52,11 @@ body {
 
 .HomePage {
 
-  background-image: url(https://images.pexels.com/photos/1774986/pexels-photo-1774986.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
-  background-size: contain;
-  background-blend-mode: overlay;
-  background-color: rgb(249, 242, 232);
+  // background-image: url(https://images.pexels.com/photos/1774986/pexels-photo-1774986.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+  // background-size: contain;
+  // background-blend-mode: overlay;
+  // background-color: rgb(249, 242, 232);
+  background-color: white;
   height: 150vh;
 
   header{
@@ -160,6 +161,7 @@ body {
   background-color: rgb(249, 242, 232);
   h1{
     grid-column: 1/4;
+    text-align: right;
   
   }
   img{
