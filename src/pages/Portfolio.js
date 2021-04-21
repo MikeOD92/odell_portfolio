@@ -7,10 +7,15 @@ export default function App(props) {
 
 			<div id="ga-final-proj">
 				<h4> My-Pack </h4>
-				<h5> a lighter pack clone</h5>
+				<h5>
+					{' '}
+					Gear and pack weight management application for thru hikers and
+					ultra-light backpackers.
+				</h5>
 				<p>
 					{' '}
-					This app is built with a Ruby-on-rails backend and a React front-end.{' '}
+					My pack is a full stack application made with a Ruby on rails back end
+					and a React front end using the Chart.js library.
 				</p>
 				<p>
 					{' '}
@@ -28,17 +33,17 @@ export default function App(props) {
 
 			<div id="fermenter">
 				<h4> Fermenter </h4>
-				<h5> An app for homebrewers and at home microbial kitchens</h5>
-				<p> Built with a react front end and a express/ mongo DB backend</p>
-				<p>
+				<h5>
 					{' '}
-					Users have full crud capibility to create recipies for beers and
-					lactic-acid fermentations.
-				</p>
+					Recipe management application made home brewers and fermenters to
+					create and fine tune recipes.
+				</h5>
+				<p>Built with a react front end and a express/mongo DB backend.</p>
 				<p>
-					{' '}
-					users can also make time-stamped notes when making a recipe to record
-					variations and outcomes{' '}
+					Users have full crud capibility with recipes for beers and lactic-acid
+					fermentations. Planing to add recipe models for vinegars, cider,
+					cheese and grain fermentations. Users can make time-stamped notes
+					associated with recipes to record variations and outcomes{' '}
 				</p>
 				<a href="https://infinite-temple-91457.herokuapp.com/">
 					Fermenter App
@@ -50,7 +55,7 @@ export default function App(props) {
 			<div id="Computer Cacti">
 				<h4> Computer Cacti </h4>
 				<h5> a mock e-commerce site for 3-d models of cacti and planters</h5>
-				<p> This app is built with an express and mongoDB backend </p>
+				<p> Built with an express and mongoDB backend </p>
 				<p>
 					{' '}
 					with this application the user has full crud over product models and
@@ -58,7 +63,7 @@ export default function App(props) {
 				</p>
 				<p>
 					{' '}
-					This is a place for me to post and in the future perhaps sell or offer
+					This is a place for me to post and in the future sell or offer
 					downloads of 3D models i've made with Blender
 				</p>
 				<a href="https://computercacti.herokuapp.com/">
