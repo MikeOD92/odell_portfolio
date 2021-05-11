@@ -47,7 +47,7 @@ export default function App(props) {
 				</p>
 				<a href="https://infinite-temple-91457.herokuapp.com/">
 					Fermenter App
-					<img src="https://i.imgur.com/R8oQjqc.jpg" />
+					<img src="https://i.imgur.com/u6E93df.png" />
 				</a>
 				<a href="https://github.com/MikeOD92/Fermenter"> github repo</a>
 			</div>
