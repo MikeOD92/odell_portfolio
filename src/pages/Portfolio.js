@@ -24,7 +24,8 @@ export default function App(props) {
 				</p>
 				<a href="https://my-pack.herokuapp.com/">
 					my-pack
-					<img src="https://i.imgur.com/Cglr8UV.png" />
+					<img src="https://i.imgur.com/JuAT335.png" />
+					<img src="https://i.imgur.com/YKreI6V.png" />
 				</a>
 				<a href="https://github.com/MikeOD92/mypack"> github repo</a>
 				<br />
