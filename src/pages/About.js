@@ -35,9 +35,7 @@ export default function About(props) {
 					<p>
 						{' '}
 						I’m a software engineer and creative with a passion for the
-						outdoors. I use React, JS, and Ruby to build visually pleasing, user
-						friendly applications and websites to help other makers share their
-						creations with the world.
+						outdoors. I use React, JS, and Ruby to build web applications.
 					</p>
 				</div>
 				<IconContext.Provider

@@ -5,6 +5,24 @@ export default function App(props) {
 		<div className="portfolio" id="portfolio">
 			<h1 className="waves">My Websites and Apps</h1>
 
+			<div id="Here comes Treble">
+				<h4> Here comes Treble</h4>
+				<h5>
+					{' '}
+					Kids music education app. Built with a team at the LiveOnline May 21'
+					Hackathon{' '}
+				</h5>
+				<p>
+					{' '}
+					Built with the M.E.R.N stack, MongoDB, Express, React, Node.js. This
+					app also uses Tone.js, React-route and jsonwebtokens
+				</p>
+				<a href="https://here-comes-treble.netlify.app/">
+					<img src="https://i.imgur.com/gH4zQsv.png" />
+				</a>
+				<a href="https://github.com/MikeOD92/here_comes_treble"> github repo</a>
+			</div>
+
 			<div id="ga-final-proj">
 				<h4> My-Pack </h4>
 				<h5>
@@ -20,7 +38,7 @@ export default function App(props) {
 				<p>
 					{' '}
 					A users can make a list of their backpacking gear, calculate total
-					weight and see a chart which breaks down weights by gear catagory.
+					weight and see a chart which breaks down weights by gear category.
 				</p>
 				<a href="https://my-pack.herokuapp.com/">
 					my-pack
@@ -75,34 +93,6 @@ export default function App(props) {
 				</a>
 				<a href="https://github.com/MikeOD92/computer-cacti"> github repo</a>
 			</div>
-
-			<div id="Here comes Treble">
-				<h4> Here comes Treble</h4>
-				<h5>
-					{' '}
-					Kids music education app. Built with a team at the LiveOnline May 21'
-					Hackathon{' '}
-				</h5>
-				<p>
-					{' '}
-					Built with the M.E.R.N stack, MongoDB, Express, React, Node.js. This
-					app also uses Tone.js, React-route and jsonwebtokens
-				</p>
-				<a href="https://here-comes-treble.netlify.app/">
-					<img src="https://i.imgur.com/gH4zQsv.png" />
-				</a>
-				<a href="https://github.com/MikeOD92/here_comes_treble"> github repo</a>
-			</div>
-			{/* <div id="The Wizards Maze">
-				<h4> The Wizards Maze</h4>
-				<h5> a very simple JS game</h5>
-				<p>
-					{' '}
-					this is made with a jquery and is played by finding the correct route
-					to exit the maze{' '}
-				</p>
-				<img src="" />
-			</div> */}
 		</div>
 	);
 }
