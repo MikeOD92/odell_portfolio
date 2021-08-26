@@ -102,17 +102,16 @@ export default function App(props) {
 					{' '}
 					Wizard's maze is a small in browser maze and battle game inspired by
 					choose your own adventure games and the pokemon battle sequences. As
-					the player attempts to find the correct pattern to exit the maze, the
+					the player attempts to find the correct pattern to exit the maze, they
 					encounter creatures and have the option to fight, heal or run.
 				</p>
 				<p>
-					The game is lost when the player's health reaches 0 and the game is
+					The game is lost when the player's health reaches zero and the game is
 					won when the player has escaped the maze.
 				</p>
 				<a href="https://mikeod92.github.io/Wizards_Maze/">
 					{' '}
 					Wizard's Maze
-					{/* <img src="https://i.imgur.com/rwvUlZP.jpg" /> */}
 					<img src="https://i.imgur.com/6MHHpZZ.png" />
 					<img src="https://i.imgur.com/UrVeKAf.jpg" />
 				</a>
