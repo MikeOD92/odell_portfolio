@@ -5,7 +5,23 @@ export default function App(props) {
 		<div className="portfolio" id="portfolio">
 			<h1 className="waves">My Websites and Apps</h1>
 
-			<div id="Here comes Treble">
+			<div id="rain-check">
+				<h4> Rain Check</h4>
+				<h5>Mobile first weather app</h5>
+				<p>
+					{' '}
+					Built using React, Rain Check pulls data from a third-party api (open
+					weather) and stores saved locations in local storage.
+				</p>
+				<a href="https://raincheckapp.netlify.app/">
+					<div className="horzontial-img">
+						<img src="https://i.imgur.com/SS2pauD.png" />
+					</div>
+				</a>
+				<a href="https://github.com/MikeOD92/weather_app"> github repo</a>
+			</div>
+
+			<div id="Here-comes-treble">
 				<h4> Here comes Treble</h4>
 				<h5>
 					{' '}
