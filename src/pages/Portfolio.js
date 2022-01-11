@@ -5,6 +5,26 @@ export default function App(props) {
 		<div className="portfolio" id="portfolio">
 			<h1 className="waves">My Websites and Apps</h1>
 
+			<div id="barraza-law">
+				<h4> Barraza Law Intake App</h4>
+				<h5>
+					React and Django app build for the Immigration Law Office of Moises
+					Barraza.
+				</h5>
+				<p>
+					This app allows the law firm to create forms that show questions based
+					on the users prior answers. By using this app for the firm's intake
+					process they can get all the nessacary information in an expidited and
+					user friendly manner.
+				</p>
+				<div className="horzontial-img">
+					<img src="https://i.imgur.com/DIxDMi9.png" />
+				</div>
+
+				<div className="horzontial-img">
+					<img src="https://i.imgur.com/fIgncTk.png" />
+				</div>
+			</div>
 			<div id="rain-check">
 				<h4> Rain Check</h4>
 				<h5>Mobile first weather app</h5>
