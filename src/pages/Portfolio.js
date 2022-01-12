@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 export default function App(props) {
 	return (
@@ -17,14 +17,60 @@ export default function App(props) {
 					process they can get all the nessacary information in an expidited and
 					user friendly manner.
 				</p>
-				<div className="horzontial-img">
-					<img src="https://i.imgur.com/DIxDMi9.png" />
+				<div>
+					<img src="https://i.imgur.com/EeHRqgY.png" />
 				</div>
 
-				<div className="horzontial-img">
-					<img src="https://i.imgur.com/fIgncTk.png" />
+				{/* <div>
+					<img src="https://i.imgur.com/yeUIbyr.png" />
 				</div>
+
+				<div>
+					<img src="https://i.imgur.com/BQeM01t.png" />
+				</div> */}
 			</div>
+
+			<div id="roll_bot">
+				<h4> Roll Bot</h4>
+				<h5>
+					{' '}
+					Discord bot designed to help people play Powered by the Apocalypse RPG
+					games remotely.{' '}
+				</h5>
+				{/* <p>
+					{' '}
+					The basic idea for this bot came about when some friends and I played
+					Dungeon World via zoom in the early 2021. After using several diffrent
+					tools for chat, dice rolls and character sheets, I set out to build a
+					more all emcompassing tool for our game.
+				</p> */}
+				<p>
+					{' '}
+					This bot uses the Discord.py, and PyMongo to take commands, and make
+					rolls with or without modifiers based on their characters play sheet.
+					Character sheets are stored in MongoDB and can be updated and changed
+					as they level up.
+				</p>
+				<p>
+					{' '}
+					Roll Bot is currently a work in progress and in it's inital phase is
+					designed just for playing Dungeon World. In the future, I plan to
+					include set up options so people can play other Powered by the
+					Apocalypse games such as Apocalypse World, City of Mist, Monster
+					Hearts and others.{' '}
+				</p>
+				<div>
+					<img src="https://i.imgur.com/cfwSvv0.png" />
+				</div>
+				{/* <div>
+					<img src="https://i.imgur.com/UtlVwGd.png" />
+				</div> */}
+				<div>
+					<img src="https://i.imgur.com/As2PMxH.png" />
+				</div>
+				<a href="https://github.com/MikeOD92/rollbot"> github repo</a>
+			</div>
+
 			<div id="rain-check">
 				<h4> Rain Check</h4>
 				<h5>Mobile first weather app</h5>
