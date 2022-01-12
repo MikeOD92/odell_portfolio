@@ -8,14 +8,14 @@ export default function App(props) {
 			<div id="barraza-law">
 				<h4> Barraza Law Intake App</h4>
 				<h5>
-					React and Django app build for the Immigration Law Office of Moises
+					React and Django app built for the Immigration Law Office of Moises
 					Barraza.
 				</h5>
 				<p>
-					This app allows the law firm to create forms that show questions based
-					on the users prior answers. By using this app for the firm's intake
-					process they can get all the nessacary information in an expidited and
-					user friendly manner.
+					This app allows the law firm to create responsive forms for their
+					intake process that can be edited as needed by staff. The intake app
+					facilitates a quick and user friendly intake process for both the law
+					firm and their prospective clients.
 				</p>
 				<div>
 					<img src="https://i.imgur.com/EeHRqgY.png" />
@@ -34,8 +34,8 @@ export default function App(props) {
 				<h4> Roll Bot</h4>
 				<h5>
 					{' '}
-					Discord bot designed to help people play Powered by the Apocalypse RPG
-					games remotely.{' '}
+					Discord bot designed to help play Powered by the Apocalypse Role
+					Playing Games (RPG) remotely.
 				</h5>
 				{/* <p>
 					{' '}
@@ -46,18 +46,16 @@ export default function App(props) {
 				</p> */}
 				<p>
 					{' '}
-					This bot uses the Discord.py, and PyMongo to take commands, and make
-					rolls with or without modifiers based on their characters play sheet.
-					Character sheets are stored in MongoDB and can be updated and changed
-					as they level up.
+					Roll Bot uses Discord.py, and PyMongo to respond to user input, build
+					character sheets, and to make dice rolls with or without modifiers
+					based on their characters play sheet. Character sheets are stored in
+					MongoDB, which can be updated and changed as players level up.
 				</p>
 				<p>
-					{' '}
-					Roll Bot is currently a work in progress and in it's inital phase is
-					designed just for playing Dungeon World. In the future, I plan to
-					include set up options so people can play other Powered by the
-					Apocalypse games such as Apocalypse World, City of Mist, Monster
-					Hearts and others.{' '}
+					Roll Bot is currently in development specifically for players of
+					Dungeon World. I plan to include set up options so people can play
+					other Powered by the Apocalypse games such as Apocalypse World, City
+					of Mist, Monster Hearts and others.
 				</p>
 				<div>
 					<img src="https://i.imgur.com/cfwSvv0.png" />
