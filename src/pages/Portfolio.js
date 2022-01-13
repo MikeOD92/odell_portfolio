@@ -118,7 +118,8 @@ export default function App(props) {
 				<p>
 					{' '}
 					Users can make a list of their backpacking gear, calculate total
-					weight and see a chart which breaks down weights into user defined gear categories.
+					weight and see a chart which breaks down weights into user defined
+					gear categories.
 				</p>
 				<a href="https://my-pack.herokuapp.com/">
 					my-pack

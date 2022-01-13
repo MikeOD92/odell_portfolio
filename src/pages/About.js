@@ -20,7 +20,9 @@ import {
 	DiNodejsSmall,
 	DiRuby,
 	DiPostgresql,
-	DiMongodb
+	DiMongodb,
+	DiPython,
+	DiDjango
 } from 'react-icons/di';
 
 export default function About(props) {
@@ -63,6 +65,10 @@ export default function About(props) {
 						<DiNodejsSmall />
 
 						<DiRuby />
+
+						<DiPython />
+
+						<DiDjango />
 
 						<DiDatabase />
 
