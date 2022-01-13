@@ -117,8 +117,8 @@ export default function App(props) {
 				</p>
 				<p>
 					{' '}
-					A users can make a list of their backpacking gear, calculate total
-					weight and see a chart which breaks down weights by gear category.
+					Users can make a list of their backpacking gear, calculate total
+					weight and see a chart which breaks down weights into user defined gear categories.
 				</p>
 				<a href="https://my-pack.herokuapp.com/">
 					my-pack
@@ -139,7 +139,7 @@ export default function App(props) {
 				</h5>
 				<p>Built with a react front end and a express/mongo DB backend.</p>
 				<p>
-					Users have full crud capibility with recipes for beers and lactic-acid
+					Users have full crud capibility with recipes for beers and lacto
 					fermentations. Planing to add recipe models for vinegars, cider,
 					cheese and grain fermentations. Users can make time-stamped notes
 					associated with recipes to record variations and outcomes{' '}
